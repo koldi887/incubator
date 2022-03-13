@@ -1,0 +1,16 @@
+.greetingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.greetingBlock {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.error {
+    border: 1px solid red;
+}

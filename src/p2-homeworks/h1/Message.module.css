@@ -1,0 +1,50 @@
+.messageContainer {
+    display: flex;
+    align-items: end;
+    position: relative;
+}
+
+/* CSS talk bubble */
+
+.messageBubble {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 0.5rem;
+    max-width: 20rem;
+    padding: 0.5rem 3rem 0.5rem 0.5rem;
+    background-color: #3f88b5;
+    border-radius: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 36px;
+    bottom: 0;
+    border-left: 1rem solid transparent;
+    border-bottom: 20px solid  #3f88b5;
+}
+
+/* Message data CSS */
+
+.messageAvatar {
+    height: 50px;
+    width: 50px;
+    border-bottom-right-radius: 1.3rem;
+    z-index: 1;
+}
+
+.messageName {
+    font-weight: bolder;
+}
+
+.messageText {}
+
+.messageTime {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0;
+    color: #f3f3f3;
+}

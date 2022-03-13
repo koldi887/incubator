@@ -1,0 +1,30 @@
+.affairsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 18rem;
+    margin-left: 2rem;
+}
+
+.filterButtonsBlock {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.affairBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
+}
+
+.affairName {
+    font-weight: 600;
+}
+
+.confirmDeleteContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
