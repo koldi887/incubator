@@ -1,9 +1,10 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import { PreJunior, JuniorPlus, Junior, Error404 } from "./pages";
+import { Navigate, Route, Routes } from 'react-router-dom'
+import { Error404, Junior, JuniorPlus, PreJunior } from "./pages";
 import Header from './Header'
 
 export const PATH = {
+    HOME: '/incubator',
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
     JUNIOR_PLUS: '/junior-plus',
@@ -14,7 +15,8 @@ function Pages() {
     return (
         <div>
             <Routes>
-                <Route path={'/'} element={<Header/>}/>
+                <Route path={'/'} element={<Navigate to={PATH.HOME}/>}/>
+                <Route path={PATH.HOME} element={<Header/>}/>
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
                 <Route path={PATH.JUNIOR} element={<Junior/>}/>
                 <Route path={PATH.JUNIOR_PLUS} element={<JuniorPlus/>}/>

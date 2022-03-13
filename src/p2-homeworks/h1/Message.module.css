@@ -40,8 +40,6 @@
     font-weight: bolder;
 }
 
-.messageText {}
-
 .messageTime {
     position: absolute;
     right: 0.5rem;

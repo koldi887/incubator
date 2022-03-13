@@ -6,7 +6,7 @@ import MotionWrap from "../../wrapper/MotionWrap";
 
 function HW5() {
     return (
-        <div>
+        <div className={'app__task-wrapper'}>
             <Router>
                 <Header/>
                 <div style={{ width: '10px', height: '10px', color: "red" }}/>

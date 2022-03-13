@@ -8,7 +8,6 @@ function HW11() {
 
     return (
         <div>
-            <hr/>
             homeworks 11
 
             {/*should work (должно работать)*/}
@@ -27,11 +26,6 @@ function HW11() {
                 <span>{value2}</span>
             </div>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperRange/>*/}
-            {/*<AlternativeSuperDoubleRange/>*/}
-            <hr/>
         </div>
     )
 }

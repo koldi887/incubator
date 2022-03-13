@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './H5Styles.module.css'
+import classes from './H5Styles.module.scss'
 import { NavLink } from "react-router-dom";
 import { PATH } from "./Routes";
 import { motion } from "framer-motion";
