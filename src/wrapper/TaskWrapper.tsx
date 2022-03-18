@@ -1,9 +1,9 @@
 import React from 'react';
 
-const TaskWrapper = (Component: React.FC, task: number) => function HOC() {
+const TaskWrapper = (Component: React.FC, taskNumber: number) => function HOC() {
     return (
         <div>
-            Homework {task}
+            Homework {taskNumber}
             <div className='task-wrapper'>
                 <Component/>
             </div>

@@ -11,12 +11,12 @@ function HW6() {
         saveState<string>('editable-span-value', value)
     }
     const restore = () => {
-        // setValue()
+        const prevValue = restoreState<string>('editable-span-value', value)
+        setValue(prevValue)
     }
 
     return (
         <>
-            {/*should work (должно работать)*/}
             <div>
                 <SuperEditableSpan
                     value={value}
